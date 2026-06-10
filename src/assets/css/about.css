@@ -1,0 +1,24 @@
+/* About Page Specific Styles */
+.about-card {
+  margin-bottom: 2rem;
+}
+
+.legal-detail {
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 16px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.compliance-alert {
+  color: #000 !important;
+}
+
+@media (max-width: 768px) {
+  .about-card {
+    padding: 1rem;
+  }
+  .compliance-alert{
+    padding: 5px;
+  }
+}

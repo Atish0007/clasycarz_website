@@ -1,0 +1,37 @@
+/* Custom Own CSS */
+.fontManrope {
+  font-family: "Manrope", sans-serif !important;
+}
+
+.letter_sp {
+  letter-spacing: 0.5px !important;
+}
+
+.cst-pt-6 {
+  padding-top: 6rem !important;
+}
+
+
+.greentick {
+  color: #00ff39;
+}
+
+.iconShadow {
+  color: #dbb52f;
+  filter: drop-shadow(0 0 5px #ffcc00);
+}
+
+.cstHomeBtn {
+  display: inline-flex;
+  margin-top: 10px;
+  align-items: center;
+  font-family: "Manrope", sans-serif !important;
+  gap: 8px;
+  filter: drop-shadow(0 0 45px #fdd180);
+  background: linear-gradient(135deg, #fff, #D4AF37);
+  color: #000000;
+  font-weight: 900 !important;
+  padding: 6px 16px;
+  border-radius: 5px;
+  font-size: .85rem;
+}

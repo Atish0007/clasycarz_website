@@ -1,0 +1,34 @@
+/* Home Page Specific Styles */
+.hero-section {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+}
+
+.hero-animate {
+  animation: fadeInUp 1s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-image {
+  border-radius: 32px;
+  box-shadow: 0 30px 40px -20px rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 992px) {
+  .hero-section {
+    text-align: center;
+  }
+  .hero-image {
+    margin-top: 2rem;
+  }
+}

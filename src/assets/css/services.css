@@ -1,0 +1,30 @@
+/* Services Page Specific Styles */
+/* .service-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+} */
+
+.service-icon {
+    font-size: 3rem;
+    color: #d4af37;
+    margin-bottom: 15px;
+}
+
+.service-icon i {
+    display: inline-block;
+}
+
+.service-card {
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+  .service-icon {
+    font-size: 3rem;
+  }
+}
