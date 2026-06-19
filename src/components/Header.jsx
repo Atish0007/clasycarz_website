@@ -55,8 +55,8 @@ const Header = () => {
     return (
         <nav className={`navbar navbar-expand-lg fixed-top navbar-custom ${scrolled ? "scrolled" : ""}`}>
             <div className="container">
-                <Link className="navbar-brand navbar-brand-custom text-white" to="/">
-                    <img src={logo} className="logo" width="26" height="auto" alt="ClasyCarz" />
+                <Link className="navbar-brand navbar-brand-custom text-white iconShadow" to="/">
+                    <img src={logo} className="logo iconShadow" width="26" height="auto" alt="ClasyCarz" />
                     CLASY<span className="gold-text">CARZ</span>
                 </Link>
                 {/* <button

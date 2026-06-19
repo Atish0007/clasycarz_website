@@ -1,0 +1,230 @@
+/* =========================
+   CLASY CARZ PREMIUM FORM
+========================= */
+
+.cc-premium-form {
+  position: relative;
+  padding: 50px;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+  box-shadow:
+    0 20px 50px rgba(0, 0, 0, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+/* .cc-premium-form::before {
+  content: '';
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgb(231 203 0 / 15%), transparent);
+  top: -150px;
+  right: -150px;
+  border-radius: 50%;
+}
+
+.cc-premium-form::after {
+  content: '';
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background: radial-gradient(circle,
+      rgba(0, 231, 68, 0.08),
+      transparent);
+  bottom: -120px;
+  left: -120px;
+  border-radius: 50%;
+} */
+
+/* Heading */
+
+.cc-form-title {
+  color: #fff;
+  font-size: 1.9rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.cc-form-title span {
+  color: #D4AF37;
+}
+
+/* Labels */
+
+.cc-input-group {
+  margin-bottom: 22px;
+}
+
+.cc-input-group label {
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 100;
+  margin-bottom: 8px;
+  display: block;
+  letter-spacing: 0.5px;
+}
+
+/* Input Box */
+
+.cc-input-wrap {
+  position: relative;
+}
+
+.cc-input-wrap i {
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #D4AF37;
+  font-size: 1rem;
+  z-index: 2;
+}
+
+.cc-input-wrap input {
+  width: 100%;
+  height: 50px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.04);
+  color: #fff;
+  padding: 0 20px 0 52px;
+  transition: all .35s ease;
+}
+
+.cc-input-wrap input::placeholder {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.cc-input-wrap input:focus {
+  outline: none;
+  border-color: #D4AF37;
+  box-shadow: 0 0 25px rgb(221 231 0 / 18%);
+  background: rgb(0 0 0 / 6%);
+}
+
+/* Licence Section */
+
+.cc-license-box {
+  margin-top: 10px;
+}
+
+.cc-license-box>label {
+  color: #fff;
+  font-weight: 100;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.cc-radio-group {
+  display: flex;
+  gap: 15px;
+}
+
+.cc-radio-card {
+  flex: 1;
+}
+
+.cc-radio-card input {
+  display: none;
+}
+
+.cc-radio-card span {
+  height: 50px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.04);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: all .35s ease;
+  font-weight: 600;
+}
+
+.cc-radio-card span i {
+  font-size: 18px;
+}
+
+.cc-radio-card input:checked+span {
+  border-color: #D4AF37;
+  /*#00e744;*/
+  background: rgb(215 231 0 / 12%);
+  color: #D4AF37;
+  box-shadow: 0 0 20px rgb(215 231 0 / 12%);
+}
+
+/* Submit Button */
+
+.cc-submit-btn {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 18px;
+  margin-top: 30px;
+  background: linear-gradient(135deg, #cee700, #D4AF37);
+  /*linear-gradient( 135deg, #00e744, #0dff6e); */
+  color: #000;
+  font-size: 1rem;
+  font-weight: 800;
+  transition: .4s;
+}
+
+.cc-submit-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 35px rgb(231 217 0 / 35%);
+}
+
+.cc-submit-btn i {
+  margin-left: 8px;
+}
+
+/* Mobile */
+
+@media(max-width:768px) {
+
+  .cc-premium-form {
+    padding: 25px;
+    border-radius: 22px;
+  }
+
+  .cc-form-title {
+    font-size: 1.7rem;
+  }
+
+  .cc-radio-group {
+    flex-direction: column;
+  }
+
+  .cc-input-wrap input {
+    height: 55px;
+  }
+
+  .cc-radio-card span {
+    height: 55px;
+  }
+}
+
+
+
+.cc-input-wrap select {
+  width: 100%;
+  height: 50px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.04);
+  outline: none;
+  color: #fff;
+  padding: 12px 15px 12px 45px;
+  font-size: 15px;
+}
+
+.cc-input-wrap select option {
+  background: #1a1a1a;
+  color: #fff;
+}

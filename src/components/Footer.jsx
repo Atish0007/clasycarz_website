@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-4 mb-4">
             
-            <h4 className="mb-3 ms-3"><img src={logo} className="footerLogo mb-3" width="26" height="auto" alt="ClasyCarz" /> CLASY<span className="gold-text">CARZ</span></h4>
+            <h4 className="mb-3 ms-3"><img src={logo} className="footerLogo mb-3 iconShadow" width="26" height="auto" alt="ClasyCarz" /> CLASY<span className="gold-text iconShadow">CARZ</span></h4>
             <p className="text-white-50 small fontManrope">
               Premium mobility & fleet management solutions based in Pune.
             </p>

@@ -41,13 +41,16 @@ const Services = () => {
                 <div className="container">
                     <div className="text-center mb-5">
                         <h1 className="fw-bold">Our <span className="gold-text">Services</span></h1>
-                        <div className="gold-border mx-auto"></div>
+                        {/* <div className="gold-border mx-auto"></div> */}
+                        <div className="bar">
+                            <div className="bar-fill"></div>
+                        </div>
                         <p className="lead fontManrope text-white-50 mt-3">Comprehensive mobility and fleet management solutions</p>
                     </div>
                     <div className="row g-4">
                         {servicesList.map((service, idx) => (
                             <div className="col-md-6 col-lg-4" key={idx}>
-                                <div className="glass-card p-4 text-center h-100 service-card">
+                                <div className="benefit-card p-4 text-center h-100 service-card cursor-pointer"> {/* glass-card*/}
                                     <div className="service-icon"><i className={`bi ${service.icon}`}></i></div>
                                     <h3 className="gold-text h4">{service.title}</h3>
                                     <p className="fontManrope text-white-50 mt-2">{service.desc}</p>

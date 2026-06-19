@@ -1,4 +1,11 @@
 /* Footer Component Styles */
+
+.footerLogo {
+    transform: scale(2.5);
+    margin-right: 25px;
+    margin-bottom: 5px;
+}
+
 .footer-custom {
     background: #050505;
     border-top: 1px solid rgba(212, 175, 55, 0.15);

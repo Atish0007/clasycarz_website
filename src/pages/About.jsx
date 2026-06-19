@@ -7,14 +7,17 @@ const About = () => {
         <div className="container">
           <div className="text-center mb-5">
             <h1 className="fw-bold">About <span className="gold-text">Clasy Carz</span></h1>
-            <div className="gold-border mx-auto"></div>
+            {/* <div className="gold-border mx-auto"></div> */}
+            <div className="bar">
+              <div className="bar-fill"></div>
+            </div>
           </div>
           <div className="row">
             <div className="col-lg-8 mx-auto">
 
               <div className="glass-card p-4 p-md-5 about-card">
                 <h3 className="gold-text text-center mb-3">Company Overview</h3>
-                <p className='fontManrope text-center'> <span className='fw-bold'>CLASY CARZ PRIVATE LIMITED</span> is a fast-growing mobility and fleet management company based in Pune, operating successfully for the past 3+ years. The company has recently been incorporated as a Private Limited entity, establishing a strong legal and financial structure to support scalable expansion and investor participation.</p>
+                <p className='lead fontManrope text-center'> <span className='fw-bold'>CLASY CARZ PRIVATE LIMITED</span> is a fast-growing mobility and fleet management company based in Pune, operating successfully for the past 3+ years. The company has recently been incorporated as a Private Limited entity, establishing a strong legal and financial structure to support scalable expansion and investor participation.</p>
               </div>
 
             </div>
@@ -22,7 +25,7 @@ const About = () => {
             <div className="col-lg-10 mx-auto">
               <div className="glass-card p-4 p-md-5 about-card">
                 <h3 className="gold-text text-center mb-3">Legal & Compliance Details</h3>
-                <div className="row">
+                <div className="row fw-light">
                   <div className="col-md-6">
                     <div className="legal-detail fontManrope"><strong>CIN :</strong> U49223PN2026PTC253677</div>
                     <div className="legal-detail fontManrope"><strong>Registration No. :</strong> 253677</div>

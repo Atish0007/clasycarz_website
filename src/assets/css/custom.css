@@ -29,7 +29,10 @@ body {
     font-weight: 600;
     font-style: normal;
     background: #0a0a0a;
-    color: #e0e0e0;
+    /* color: #e0e0e0; */
+    background: radial-gradient(circle at top left, #111111, #050505), #050505;
+    color: white;
+    overflow-x: hidden;
 }
 
 /* Premium gradient backgrounds */
