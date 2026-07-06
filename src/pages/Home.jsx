@@ -23,26 +23,7 @@ import team5 from "../assets/images/team/team5.png";
 const Home = () => {
 
 
-  // State for application form
-  const [formData, setFormData] = useState({
-    name: '',
-    phone: '',
-    email: '',
-    location: "",
-    hasLicense: 'no'
-  });
-
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
-    setFormData(prev => ({ ...prev, [name]: value }));
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log('Form submitted:', formData);
-    alert('Thank you! Our team will contact you soon.');
-    // Reset form or handle submission logic here
-  };
+  
 
 
   // Team members
@@ -60,17 +41,17 @@ const Home = () => {
     {
       image: team3,
       name: "Nilesh Dhamale",
-      role: "Marketing Manager (MM)",
+      role: "Marketing Head (MH)",
     },
     {
       image: team4,
       name: "Pankaj Agarwal",
-      role: "Account Manager (AM)",
+      role: "Account Head (AH)",
     },
     {
       image: team5,
       name: "Laxman Jadhav",
-      role: "Business Development (BD)",
+      role: "Business Development Head (BDH)",
     },
   ];
 
@@ -391,6 +372,9 @@ const Home = () => {
                     <p className="gold-text mb-0">
                       {member.role}
                     </p>
+                    {index !==0 && ( 
+                      <p className="gold-text mb-0">Director</p>
+                    )}
                   </div>
                 </div>
               </div>
@@ -421,6 +405,8 @@ const Home = () => {
                     <p className="gold-text mb-0">
                       {member.role}
                     </p>
+                    <p className="gold-text mb-0">Director</p>
+                    
                   </div>
                 </div>
               </div>
@@ -459,7 +445,7 @@ const Home = () => {
             <div className="col-md-6">
               <div className="impact-card p-4">
                 <div className="impact-number iconShadow">25K+</div>
-                <p className="text-white h5 mt-2">Generating Uber Trips Per Month  </p>
+                <p className="text-white h5 mt-2">Executing Uber Trips Per Month  </p>
                 <span className="badge bg-gold-soft iconShadow">Moving Forward</span>
               </div>
             </div>
@@ -700,9 +686,9 @@ const Home = () => {
           <div className="row justify-content-center">
             <div className="col-lg-7">
               <ApplicationForm
-                formData={formData}
-                handleInputChange={handleInputChange}
-                handleSubmit={handleSubmit}
+                // formData={formData}
+                // handleInputChange={handleInputChange}
+                // handleSubmit={handleSubmit}
               />
             </div>
           </div>

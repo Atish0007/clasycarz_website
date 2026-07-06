@@ -108,6 +108,15 @@ const Header = () => {
                         <li className="nav-item">
                             <NavLink
                                 className={({ isActive }) => `nav-link nav-link-custom ${isActive ? 'nav-link-active' : 'text-white-50'}`}
+                                to="/gallery"
+                                onClick={closeMenu}
+                            >
+                                Gallery
+                            </NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink
+                                className={({ isActive }) => `nav-link nav-link-custom ${isActive ? 'nav-link-active' : 'text-white-50'}`}
                                 to="/services"
                                 onClick={closeMenu}
                             >

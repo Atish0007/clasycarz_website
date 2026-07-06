@@ -1,0 +1,184 @@
+.gallery-section {
+  overflow: hidden;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+  gap: 25px;
+}
+
+.gallery-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 24px;
+  cursor: pointer;
+  border: 1px solid rgba(255,215,0,.15);
+  transition: .5s;
+}
+
+.gallery-card:hover {
+  transform: translateY(-8px);
+}
+
+.gallery-img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  transition: .7s;
+}
+
+.gallery-card:hover .gallery-img {
+  transform: scale(1.08);
+}
+
+.gallery-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: .4s;
+}
+
+.gallery-overlay i {
+  font-size: 2rem;
+  color: #d4af37;
+}
+
+.gallery-card:hover .gallery-overlay {
+  opacity: 1;
+}
+
+.gallery-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+
+  background: rgba(0,0,0,.85);
+
+  backdrop-filter: blur(15px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  animation: fadeIn .3s ease;
+}
+
+.gallery-modal-content {
+  width: 90%;
+  max-width: 1000px;
+}
+
+.gallery-modal-img {
+  width: 100%;
+  border-radius: 20px;
+
+  max-height: 85vh;
+
+  object-fit: contain;
+
+  animation: zoomIn .4s ease;
+}
+
+.gallery-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: 60px;
+  height: 60px;
+
+  border: none;
+
+  border-radius: 50%;
+
+  background: rgba(255,255,255,.1);
+
+  backdrop-filter: blur(10px);
+
+  color: #d4af37;
+
+  font-size: 2rem;
+
+  transition: .3s;
+}
+
+.gallery-btn:hover {
+  background: rgba(255,215,0,.15);
+}
+
+.prev-btn {
+  left: 30px;
+}
+
+.next-btn {
+  right: 30px;
+}
+
+.gallery-close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+
+  width: 50px;
+  height: 50px;
+
+  border: none;
+
+  border-radius: 50%;
+
+  background: rgba(255,255,255,.1);
+
+  color: white;
+
+  backdrop-filter: blur(10px);
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(.8);
+    opacity:0;
+  }
+  to {
+    transform: scale(1);
+    opacity:1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}
+
+@media(max-width:768px){
+
+  .gallery-grid{
+    grid-template-columns:1fr;
+  }
+
+  .gallery-img{
+    height:250px;
+  }
+
+  .gallery-btn{
+    width:50px;
+    height:50px;
+    font-size:1.5rem;
+  }
+
+  .prev-btn{
+    left:10px;
+  }
+
+  .next-btn{
+    right:10px;
+  }
+}

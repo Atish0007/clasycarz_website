@@ -61,13 +61,13 @@ const Contact = () => {
                   <p className="mb-1"><i className="bi bi-telephone-fill gold-text me-2 iconShadow"></i> <strong>Phone</strong></p>
                   <p className="text-white-50 fontManrope">+91 9161096161</p>
                 </div>
-                {/* <div className="contact-card">
+                <div className="contact-card">
                   <p className="mb-1"><i className="bi bi-globe2 gold-text me-2 iconShadow"></i> <strong>Website</strong></p>
                   <p className="text-white-50">www.clasycarz.com</p>
-                </div> */}
+                </div>
                 <div className="contact-card">
                   <p className="mb-1"><i className="bi bi-envelope-fill gold-text me-2 iconShadow"></i> <strong>Email</strong></p>
-                  <p className="text-white-50 fontManrope">invest@clasycarz.com</p>
+                  <p className="text-white-50 fontManrope">contact@clasycarz.com</p>
                 </div>
               </div>
             </div>
@@ -100,9 +100,9 @@ const Contact = () => {
                   <div className="col-lg-7">
 
                     <ApplicationForm
-                      formData={formData}
-                      handleInputChange={handleInputChange}
-                      handleSubmit={handleSubmit}
+                      // formData={formData}
+                      // handleInputChange={handleInputChange}
+                      // handleSubmit={handleSubmit}
                     />
                   </div>
                 {/* </div>

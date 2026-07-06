@@ -17,7 +17,7 @@ const About = () => {
 
               <div className="glass-card p-4 p-md-5 about-card">
                 <h3 className="gold-text text-center mb-3">Company Overview</h3>
-                <p className='lead fontManrope text-center'> <span className='fw-bold'>CLASY CARZ PRIVATE LIMITED</span> is a fast-growing mobility and fleet management company based in Pune, operating successfully for the past 3+ years. The company has recently been incorporated as a Private Limited entity, establishing a strong legal and financial structure to support scalable expansion and investor participation.</p>
+                <p className='lead fontManrope text-center'> <span className='fw-bold'>CLASY CARZ PRIVATE LIMITED</span> (Cin- 49223PN2026PTC253677) is a fast-growing mobility and fleet management company based in Pune, operating successfully for the past 3+ years. The company has recently been incorporated as a Private Limited entity, establishing a strong legal and financial structure to support scalable expansion and investor participation.</p>
               </div>
 
             </div>
@@ -35,7 +35,8 @@ const About = () => {
                   <div className="col-md-6">
                     <div className="legal-detail fontManrope"><strong>MSME Registration :</strong> UDYAM-MH-26-1115416</div>
                     <div className="legal-detail fontManrope"><strong>Banking Partner :</strong> IDFC FIRST BANK</div>
-                    <div className="legal-detail fontManrope"><strong>Chartered Accountant :</strong> HSA</div>
+                    <div className="legal-detail fontManrope"><strong>Chartered Accountant :</strong> Hemant Shah & Associates</div>
+                    <div className="legal-detail fontManrope"><strong>Roc :</strong>  ROC, PUNE</div>
                   </div>
                 </div>
                 <div className="alert alert-dark mt-3 border-gold text-center compliance-alert" style={{ background : 'linear-gradient(360deg, #fff, #D4AF37)',color:'#000 !important',border: 'none'}}>

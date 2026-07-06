@@ -228,3 +228,39 @@
   background: #1a1a1a;
   color: #fff;
 }
+
+
+/* Errors */
+.error-text {
+  font-size: 12px;
+  color: #ff4d4d;
+  display: block;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* Toast Message CSS */
+/* TOAST */
+.cf-toast {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #2e7d32;
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 6px;
+  font-size: 14px;
+  animation: slideIn 0.4s ease;
+  z-index: 999999999;
+}
+
+@keyframes slideIn {
+  from { transform: translateX(100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+.cc-submit-btn:disabled {
+  opacity: 0.8;
+  cursor: not-allowed;
+}

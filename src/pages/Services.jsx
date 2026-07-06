@@ -5,12 +5,12 @@ const Services = () => {
     const servicesList = [
         {
             title: "Fleet Aggregation",
-            desc: "We manage a fleet of 50+ vehicles, ensuring high utilization and operational efficiency.",
+            desc: "We manage a fleet of 60+ vehicles, ensuring high utilization and operational efficiency.",
             icon: "bi-truck-front-fill iconShadow"
         },
         {
             title: "Driver Partnerships",
-            desc: "Partner with 160+ active drivers under a revenue-sharing model that benefits all stakeholders.",
+            desc: "Partner with 160+ active drivers on leasing model that benefits all.",
             icon: "bi-people-fill iconShadow"
         },
         {
@@ -25,12 +25,12 @@ const Services = () => {
         },
         {
             title: "Expansion Planning",
-            desc: "Scaling to 200 vehicles and 300+ drivers within the current academic year.",
+            desc: "Scaling to 200+ vehicles and 500+ drivers within the current academic year.",
             icon: "bi-graph-up-arrow iconShadow"
         },
         {
-            title: "Investor Returns",
-            desc: "18% assured annual returns with stable and recurring revenue model.",
+            title: "Investment Returns",
+            desc: "18%* assured annual returns with stable and recurring revenue model.",
             icon: "bi-cash-coin iconShadow"
         }
     ];
@@ -63,8 +63,8 @@ const Services = () => {
                         <div className="col-12">
                             <div className="glass-card p-5 text-center">
                                 <h3 className="gold-text">Expansion Plan in Detail</h3>
-                                <p className="lead fontManrope mt-3">Target to scale from <strong className="text-white">50 → 200 vehicles</strong> within the current academic year</p>
-                                <p className='fontManrope'>Expand driver network to <strong>300+ active drivers</strong> and strengthen presence across Pune and nearby regions.</p>
+                                <p className="lead fontManrope mt-3">Target to scale from <strong className="text-white">60 → 200 vehicles</strong> within the current academic year</p>
+                                <p className='fontManrope'>Expand driver network to <strong>500+ active drivers</strong> and strengthen presence across Pune and nearby regions.</p>
                                 <a href="/contact" className="btn btn-gold mt-3">Partner With Us</a>
                             </div>
                         </div>

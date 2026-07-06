@@ -23,6 +23,7 @@ const Footer = () => {
             <ul className="list-unstyled">
               <li><a href="/" className="footer-link small"> <i className="bi bi-link-45deg"></i> Home</a></li>
               <li><a href="/about" className="footer-link small"> <i className="bi bi-link-45deg"></i> About Us</a></li>
+              <li><a href="/gallery" className="footer-link small"> <i className="bi bi-link-45deg"></i> Gallery</a></li>
               <li><a href="/services" className="footer-link small"> <i className="bi bi-link-45deg"></i> Services</a></li>
               <li><a href="/contact" className="footer-link small"> <i className="bi bi-link-45deg"></i> Contact</a></li>
             </ul>
@@ -36,7 +37,7 @@ const Footer = () => {
               <i className="bi bi-telephone-fill iconShadow fontManrope me-2"></i> +91 9161096161
             </p>
             <p className="text-white-50 small">
-              <i className="bi bi-envelope-fill iconShadow fontManrope me-2"></i> info@clasycarz.com
+              <i className="bi bi-envelope-fill iconShadow fontManrope me-2"></i> contact@clasycarz.com
             </p>
           </div>
         </div>
